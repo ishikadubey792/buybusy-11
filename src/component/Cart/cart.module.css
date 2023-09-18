@@ -1,0 +1,95 @@
+.filter{
+    width: 15%;
+    padding: 3%;
+    background-color: #FFE5E5;
+    position: fixed;
+    top: 50%;
+    left: 1%;
+    border-radius: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.filter h2{
+    text-align: center;
+    color: #224957;
+}
+
+.purchase{
+    background-color: #FBA1B7;
+    border: 1px solid #FBA1B7;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 1.2em;
+    padding: 12px;
+    transition: all 0.4s ease-in-out;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+.purchase:hover{
+    background-color: white;
+    color: #FBA1B7;
+}
+
+.outerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: 25%;
+    gap: 2%;
+    margin: 3rem 10rem;
+    margin-left: 25%;
+}
+.singleCard{
+     width: 30%;
+     border-radius: 10px;
+     box-shadow: 0 2px 8px 0 rgba(64,77,148,.4);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 1%;
+     transition: all .25s ease-in-out;
+     position: relative;
+}
+.imageContainer{
+    height: fit-content;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imageContainer img{
+    height: 80%;
+    width: 80%;
+}
+.cart{
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 1.2em;
+    padding: 12px;
+    transition: all 0.4s ease-in-out;
+    width: 100%;
+}
+.cart:hover{
+    background-color: white;
+    color: red;
+}
+.btnContainer{
+    position: absolute;
+    bottom: 0.5rem;
+    
+}
+.priceContainer{
+    margin-bottom: 25%;
+}
+.titleContainer{
+    
+    overflow: hidden; 
+}
